@@ -1,0 +1,111 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.brand_box1
+{
+	background-image: url("../src/Img/bran1.jpg");
+	background-size: contain;
+  height: 200px;
+}
+.brand_box2
+{
+	background-image: url("../src/Img/bran3.png");
+	background-size: contain;
+  height: 200px;
+  background-repeat:  no-repeat;
+}
+.brand_box3
+{
+	background-image: url("../src/Img/bran4.png");
+  height: 200px;
+	background-size: contain;
+  background-repeat:  no-repeat;
+  background-position: 50px 0px;  
+   
+}
+.brand_box4
+{
+	background-image: url("../src/Img/bran5.png");
+	background-size: cover;
+  height: 200px;
+  background-repeat:  no-repeat;
+}
+.brand_box5
+{
+	background-image: url("../src/Img/bran6.png");
+  height: 200px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand_box6
+{
+	background-image: url("../src/Img/bran7.png");
+	background-size: contain;
+  height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand_box7
+{
+	background-image: url("../src/Img/bran8.jpg");
+	background-size: contain;
+  height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand_box8
+{
+	background-image: url("../src/Img/bran9.png");
+	background-size: contain;
+  height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand_box1:hover, .brand_box2:hover, .brand_box3:hover, .brand_box4:hover, .brand_box5:hover, .brand_box6:hover, .brand_box7:hover, .brand_box8:hover
+{
+	box-shadow: 2px 2px 2px 2px grey;
+}
+.well
+{
+  border:  2px solid rgb(250, 250, 250);
+  border-radius:  20px;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

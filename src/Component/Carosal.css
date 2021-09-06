@@ -1,0 +1,28 @@
+.banner
+{
+  background-image: url("../Img/natural1.jpg");
+  height:  calc(100vh - 50px);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+}
+.banner1
+{
+  background-image: url("../Img/natural.jpg");
+  height:  calc(100vh - 50px);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+}
+.banner2
+{
+  background-image: url("../Img/math.jpg");
+  height:  calc(100vh - 50px);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+}
+h1
+{
+    font-family: 'Architects Daughter', cursive;
+}

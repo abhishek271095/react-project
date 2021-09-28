@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import FormControl from 'react-bootstrap/FormControl'
-import FormCheck from 'react-bootstrap/FormCheck'
+
 import { Container } from 'react-bootstrap';
 
 
@@ -16,10 +16,17 @@ const Contact=()=>
       
         <Container className="" fluid>
         <h3 className="text-center pt-5"> Contact Us</h3>
-            <Row>
+            <Row className="mt-5">
+                <Col className="col-md-6 " xs={12}  >
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1431092.0205217632!2d92.37505009921031!3d12.436449259969526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1632810667326!5m2!1sen!2sin" className="h-100 w-100 p-3" style={{'border':`0`}} allowfullscreen="" loading="lazy"></iframe>
+
+
+
+                </Col>
           
-                <Col className="col-md-4 mx-auto">
-                <Form  className="mb-3 mt-3 ">
+                <Col className="col-md-6 " xs={12}>
+                <Form  className="p-4 ">
             <Row className="mb-3 ">
                 <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>First Name</Form.Label>
@@ -47,7 +54,7 @@ const Contact=()=>
 
            
 
-            <Button variant="dark" type="submit"  className="mx-auto d-block w-75">
+            <Button variant="outline-dark" type="submit"  className="mx-auto d-block w-25">
                 Submit
             </Button>
     </Form></Col>

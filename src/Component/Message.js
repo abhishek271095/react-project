@@ -2,41 +2,36 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import Image from 'react-bootstrap/Image'
+import Button from 'react-bootstrap/Button'
 
 const Message = ()=>{
 
     return(
-        <Container className="bg-dark" fluid>
-            <h3 className="text-center p-5 text-light"> Blog</h3>
+        <Container className="blog" fluid>
+            <h3 className="text-center p-5 text-dark"> Blog</h3>
             <Container className="">
             
 
                     <Row className="">
 
-                    <Col  className="">
+                    <Col  className="d-flex justify-content-center align-items-center" xs={12} md={6}>  
                     
-                    <img
-                    className="blog d-block w-50 h-75 rounded-circle  mx-auto p-5 "
-                    src="Banner/demo.jpg"
-                    alt="First slide"
-                    />
+                  
+                    <Image src="Banner/wall8.jpg" className="h-100 w-75" fluid /> 
 
                
 
                     </Col>
 
-                    <Col className="">
+                    <Col className="" xs={12} md={6}>
 
-                        <h4 className="p-5 text-light">
-                        "We all need someone who inspires,<br/> 
-                            us to do better than we know"
+                        <h4 className="pt-1 text-dark">
+                        Best beach resort in Goa on Betalbatim beach!
                         </h4>
-                        <p className="text-light p-4"> It is a long established fact that a reader will be
-                        distracted by the readable content of a page when looking at its layout. 
-                        The point of using Lorem Ipsum is that it 
-                        has a more-or-less normal distribution of letters.</p>
+                        <p className="text-dark pt-3"> Welcome to Beleza By The Beach — a step into lore, culture, and untainted beauty. Soak up the glories of South Goa, the scintillating sun, and the pristine white sandy beaches of Colva amidst a wonderland that is both art and heart. Start your day with a steady swish of the waving sea at Betalbatim beach. Unwind with a blissful dip into the picturesque pools or a visit to our tranquillizing spa. Look forward to elevating your mood in vast, green paddy fields, and delight your taste buds at our truly delectable restaurants — home to some of the choicest cuisines from the land.</p>
 
-                        <h6 className="text-light p-5"> - Joe Mark </h6>
+                        <Button variant="outline-dark" className="w-25 d-block mx-auto p-2 mt-3">Read More</Button>
 
                     </Col>
 

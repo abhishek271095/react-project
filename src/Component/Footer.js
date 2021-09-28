@@ -9,7 +9,7 @@ const Footer = ()=>{
          <Container className="bg-dark" fluid>
 <Container className="text-light" >
 		<Col className="">
-			<h4 className="d-inline-block pt-4 float-left">Find Us On: </h4>
+			<h4 className="d-inline-block pt-4 float-left">Follow: </h4>
 
 			<ul className="list-inline d-inline-block">
 
@@ -22,36 +22,41 @@ const Footer = ()=>{
 		<Col className="">
 			<Row className="mt-4">
 
-			<Col >
+			<Col xs={12}  md={3} >
 				<h4> Who we are </h4>
 				<ul className="list-unstyled pt-2 ">
-					<li><i className="fas fa-phone p-2 text-warning" ></i> 123-23-4345</li>
-					<li><i className="fas fa-envelope p-2 text-warning"></i>example@example.com</li>
-					<li><i className="fas fa-map-marker-alt p-2 text-warning"></i>Santa Monica BLVD Los Angeles</li>
+					<li><i className="fas fa-phone p-2 text-info" ></i> 123-23-4345</li>
+					<li><i className="fas fa-envelope p-2 text-info"></i>example@example.com</li>
+					<li><i className="fas fa-map-marker-alt p-2 text-info"></i>Santa Monica BLVD Los Angeles</li>
 				</ul>
 			</Col>
-			<Col >
+			<Col xs={12} md={3}>
 				<h4> Join Our Newsletters </h4>
-				<p className="pt-2">Subscribe to our newsletters. Be in touch with latest news,special offer, etc.</p>
+				
 				<Col className="form-group">
-					<label> <b>Email</b></label>
+					
+					<label> <b>First Name </b></label>
 					<input type="name" name="name" className="input-group rounded border border-light mt-2" />
+					<label> <b>Last Name </b></label>
+					<input type="name" name="name" className="input-group rounded border border-light mt-2" />
+					<label> <b>Your Email</b></label>
+					<input type="emil" name="name" className="input-group rounded border border-light mt-2" />
 					
 				</Col>
 				<button className="btn btn-info  mt-4 w-50"> Subscribe </button>
 			</Col>
-			<Col >
-				<h4> Information </h4>
+			<Col  xs={12} md={3}>
+				<h4> Book a Vacation</h4>
 				<ul className="list-unstyled pt-2">
-					<li><i className="fas fa-chevron-right p-2 text-warning"></i> Frequently asked questions</li>
-					<li><i className="fas fa-chevron-right p-2 text-warning"></i>Become a Vendor</li>
-					<li><i className="fas fa-chevron-right p-2 text-warning"></i>Warranty Detail</li>
-					<li><i className="fas fa-chevron-right p-2 text-warning"></i>Delivery to your City</li>
-					<li><i className="fas fa-chevron-right p-2 text-warning"></i>Handbook for materials</li>
-					<li><i className="fas fa-chevron-right p-2 text-warning"></i>ECO Cerficates</li>
+					<li><i className="fas fa-chevron-right p-2 text-info"></i> Book Online</li>
+					<li><i className="fas fa-chevron-right p-2 text-info"></i>Get a Price Quote</li>
+					<li><i className="fas fa-chevron-right p-2 text-info"></i>View Specials</li>
+					<li><i className="fas fa-chevron-right p-2 text-info"></i>Find a Travel Agent</li>
+					<li><i className="fas fa-chevron-right p-2 text-info"></i>View Locations</li>
+					<li><i className="fas fa-chevron-right p-2 text-info"></i>Vacation Deals</li>
 				</ul>
 			</Col>
-			<Col>
+			<Col xs={12} md={3}>
 
 				<h4> We Accept </h4>
 				<p>lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -82,7 +87,7 @@ const Footer = ()=>{
     
 
 		<Container className="bg-dark p-3">
-			<p className="lead ">2021@DesignesBy:- Abhishek Yadav</p>
+			<p className="lead ">copyright @ 2021. By:- Abhishek Yadav</p>
 		
 	</Container>
 
